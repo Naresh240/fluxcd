@@ -8,7 +8,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: nginx.awsdevopstrainer.com
+    http:
       paths:
       - path: /
         backend:
