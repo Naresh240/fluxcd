@@ -5,3 +5,4 @@ resources:
   - ../deploy/deployment.yaml
   - ../deploy/service.yaml
   - ../deploy/ingress.yaml
+  - ../deploy/cert-maanger.yaml
